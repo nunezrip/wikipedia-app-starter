@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wikipedia App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <h1> Wikipedia App</h1>
+  <br>
+  <h2> What do you wish to know?</h2>
+  
+  <br>
+
+  <div class="container" id="submitButtonContainer">
+    <input class="from-control" id="searchTerm" placeholder="Enter Search Request">
+    <button id="searchButton" type="button" class="btn btn-primary"> Submit</button><br>
+  </div>
+
+      <h3 class="h3title" id="notSure">If Unsured:</h3>
+
+  <div class="container" id="clickForRandomContainer">
+    <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-secondary">Click Here for Random Site</a>
+    
+  </div>
+
+  <ul id="output"></ul>
+
+  <div class ="container" id="logoContainer">
+    <img class="wikipediaLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/2000px-Wikipedia-logo-v2-en.svg.png" alt="wekipedia logo">
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

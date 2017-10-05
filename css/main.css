@@ -1,0 +1,66 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Linux Libertine';
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Linux Libertine';
+}
+
+#notSure {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family:  'Germania One', cursive;
+}
+
+.btn-secondary{
+    font-size: 1.5em;
+
+}
+
+.wikipediaLogo{
+    height: 300px;
+    width: auto;
+}
+
+
+#submitButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#searchTerm{
+    width: 600px;
+}
+
+#clickForRandomContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*Styling output*/
+
+.listItems{
+    font-size: 1.7em;
+}
